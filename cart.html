@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سلة التسوق الفضائية</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="https://imgur.com/GLvmBJJ.png" alt="شعار المتجر" class="site-logo">
+        </a>
+        <nav>
+            <a href="index.html">المنتجات</a>
+            <a href="cart.html">السلة</a>
+        </nav>
+        <div class="language-switcher">
+            <button id="englishBtn">English</button>
+            <button id="arabicBtn">العربية</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="cart">
+            <h1 class="cart-title">سلة التسوق الفضائية 🚀</h1>
+            <ul id="cartItems"></ul>
+            <div class="cart-actions">
+                <button id="clearCart" class="space-button">إفراغ السلة</button>
+                <button id="sendToWhatsApp" class="space-button">إرسال إلى واتساب</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

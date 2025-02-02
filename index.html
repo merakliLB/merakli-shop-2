@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر الفضاء</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="https://imgur.com/GLvmBJJ.png" alt="شعار المتجر" class="site-logo">
+        </a>
+        <nav>
+            <a href="index.html">المنتجات</a>
+            <a href="cart.html">السلة</a>
+        </nav>
+        <div class="language-switcher">
+            <button id="englishBtn">English</button>
+            <button id="arabicBtn">العربية</button>
+        </div>
+        <div class="cart-icon" onclick="goToCart()">
+            🛒 <span id="cartCount">0</span>
+        </div>
+    </header>
+
+    <main>
+        <section class="products" id="products">
+            <h1 class="products-title">منتجات الفضاء 🪐</h1>
+        </section>
+    </main>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
